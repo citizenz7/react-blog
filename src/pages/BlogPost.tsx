@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Card } from "@/components/ui/card";
+import Comments from "@/components/Comments";
 
 // Separate the data fetching logic
 const getBlogPost = (slug: string) => {
@@ -166,6 +167,9 @@ const BlogPost = () => {
                   </p>
                 ))}
               </div>
+
+              {/* Comments Section */}
+              <Comments postSlug={post.slug} />
             </div>
 
             {/* Author sidebar */}
