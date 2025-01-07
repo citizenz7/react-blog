@@ -14,22 +14,22 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold text-white mb-4">Categories</h4>
+            <h4 className="font-semibold text-white mb-4">Navigation</h4>
             <ul className="space-y-2">
-              <li><Link to="/category/design" className="hover:text-white transition-colors">Design</Link></li>
-              <li><Link to="/category/research" className="hover:text-white transition-colors">Research</Link></li>
-              <li><Link to="/category/technology" className="hover:text-white transition-colors">Technology</Link></li>
-              <li><Link to="/category/interviews" className="hover:text-white transition-colors">Interviews</Link></li>
+              <li><Link to="/articles" className="hover:text-white transition-colors">Articles</Link></li>
+              <li><Link to="/categories" className="hover:text-white transition-colors">Categories</Link></li>
+              <li><Link to="/about" className="hover:text-white transition-colors">About</Link></li>
+              <li><Link to="/contact" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold text-white mb-4">Company</h4>
+            <h4 className="font-semibold text-white mb-4">Categories</h4>
             <ul className="space-y-2">
-              <li><Link to="/about" className="hover:text-white transition-colors">About Us</Link></li>
-              <li><Link to="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-              <li><Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
+              <li><Link to="/categories/technology" className="hover:text-white transition-colors">Technology</Link></li>
+              <li><Link to="/categories/design" className="hover:text-white transition-colors">Design</Link></li>
+              <li><Link to="/categories/business" className="hover:text-white transition-colors">Business</Link></li>
+              <li><Link to="/categories/research" className="hover:text-white transition-colors">Research</Link></li>
             </ul>
           </div>
           
